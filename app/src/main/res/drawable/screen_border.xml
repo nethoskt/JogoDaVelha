@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle">
+
+    <solid android:color="@color/btn_collor" />
+
+    <corners
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+        <!--
+        - shape: Essa tag é usada para definir a forma que se quer aplicar no componente,
+         no nosso exemplo definimos uma forma bem simples que foi rectangle.
+
+        - solid: Essa tag é usada para definir as propriedades do componente como a
+        cor de fundo, cor da fonte, etc.
+
+        - corners: Essa tag é tag que define a propriedades do cantos do componente,
+        é essa tag que irá de fato aplicar as bordas arredondadas.
+        -->
+</shape>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundltbluegray">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            style="@style/Button"
+            android:tag="quadrado1"
+            android:onClick="clickQuadrado"
+            android:layout_marginLeft="25dp"
+            android:enabled="false" />
+
+        <Button
+            style="@style/Button"
+            android:tag="quadrado2"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            style="@style/Button"
+            android:tag="quadrado3"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            style="@style/Button"
+            android:tag="quadrado4"
+            android:onClick="clickQuadrado"
+            android:layout_marginLeft="25dp"
+            android:enabled="false"
+            />
+        <Button
+            style="@style/Button"
+            android:tag="quadrado5"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            style="@style/Button"
+            android:tag="quadrado6"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            style="@style/Button"
+            android:tag="quadrado7"
+            android:onClick="clickQuadrado"
+            android:layout_marginLeft="25dp"
+            android:enabled="false"/>
+        <Button
+            style="@style/Button"
+            android:tag="quadrado8"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            style="@style/Button"
+            android:tag="quadrado9"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/btn_jogar"
+        android:onClick="NewGame"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "X"
+            android:id="@+id/rbX" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "O"
+            android:id="@+id/rbO" />
+    </RadioGroup>
+
+
+
+
+
+
+</LinearLayout>
